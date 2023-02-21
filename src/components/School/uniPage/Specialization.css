@@ -1,0 +1,104 @@
+.specialization-wrap {
+    width: 100%;
+    height: 100%;    
+}
+
+.specialization-wrap img {
+    height: 100%;
+    width: 100%;
+}
+
+.specialization-wrap .pointer {
+    height: 21px;
+    width: 37px;
+    margin-left: 250px;
+}
+
+.spec-opts-cover {
+    height: 950px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.specialization-wrap .uni-opts-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 9px;
+    background-color:#EFF8FF;
+    border-radius: 10px;
+}
+
+.specialization-wrap .uni-opts-wrap .uni-opt {
+    width: 80%;
+    height: 143px;
+    margin-bottom: 31px;
+    display: flex;
+}
+
+.specialization-wrap .uni-opt .uni-img {
+    width: 160px;
+    height: 100%;
+    margin-right: 50px;
+}
+
+.specialization-wrap .uni-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.specialization-wrap .uni-side h1 {
+    width: 367px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.specialization-wrap .uni-side p {
+    width: 261px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.specialization-wrap .uni-side .apply {
+    margin-top: auto;
+}
+
+.specialization-wrap .uni-side .apply button{
+    width: 191px;
+    height: 45px;
+    background: linear-gradient(180deg, #80AEFD 0%, #2D31FA 100%);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    margin-right: 27px;
+    color: #FFFFFF;
+}
+
+.specialization-wrap .uni-side .apply span {
+    width: 162px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6788A2;
+}

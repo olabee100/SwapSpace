@@ -1,0 +1,169 @@
+/* .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+} */
+
+/* =========The Container ========= */
+.container {
+    width: calc(100vw - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+.wrapper {
+    width: 90%;
+}
+
+/* =========THe Header========== */
+
+.header {
+    background-color: #0D2C58;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-hold {
+    margin: 0px 40px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-hold img {
+    margin-bottom: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.logo-hold div {
+    font-size: 9px;
+}
+
+.titleHold .title {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.titleHold .subTitle {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+/* =======The Table Head======= */
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table {
+    width: 100%;
+  /* padding: 0px 20px; */
+
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table .tr-head {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.table .tr-head th {
+    /* padding: 10px 10px; */
+    /* background-color: #f8f9fa; */
+  
+    font-size: 15px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.table .tr-body {
+    background-color: lightgray;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.table .tr-body td {
+    /* padding: 10px 15px; */
+    font-size: 16px;
+    font-weight: 400;  
+}
+
+/* ======= The Accepted Users======= */
+
+.profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.profile img {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name .user-name {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.name .sub-name {
+    font-size: 13px;
+    font-weight: 300;
+    color: gray;
+}
+
+/* ========The step indicator======= */
+
+.progress-step {
+    display: flex;
+    align-items: center;
+}
+
+.progress-step .circle {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background-color: #0D2C58;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.progress-step .dash {
+    border: 1px dashed #0D2C58;
+    width: 90px;
+}
+
+.progress-step .line {
+    border: 1px dashed #0D2C58;
+    width: 90px;
+}
+
+.progress-step .shape {
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-left: 10px solid #0D2C58;
+    border-bottom: 7px solid transparent;
+}

@@ -1,0 +1,121 @@
+.upcoming-web {
+    margin-top: 65px;
+    width: 87%;
+    z-index: 1;
+}
+
+/* .upcoming-web video {
+    z-index: 1;
+} */
+
+.upcoming-web .pls-complete {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    /* Note: backdrop-filter has minimal browser support */
+    backdrop-filter: blur(11px);
+}
+
+.upcoming-web .enroll {
+    width: 665px;
+    height: 238px;
+    position: absolute;
+    top: 20%;
+    /* transform: translateY(-50%); */
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.upcoming-web .enroll p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.upcoming-web .enroll button {
+    width: 392px;
+    height: 58px;
+    border: none;
+    background: #0D2C58;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.upcoming-web .up-v-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 44px;
+    /* column-gap: 71px; */
+}
+
+.upcoming-web .for-v{
+    border-radius: 8px;
+    height: 163px;
+}
+
+.upcoming-web .v-card {
+    width: 346px;
+    height: 375px;
+}
+
+.upcoming-web h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.upcoming-web .up-v-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-web .up-v-top:nth-of-type(1) {
+    margin-bottom: 44px;
+}
+
+.upcoming-web .up-v-wrap h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D2C58;
+}
+
+.upcoming-web .up-v-wrap p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9A9A9A;
+}
+
+.upcoming-web .up-v-wrap button {
+    width: 126px;
+    height: 44px;
+    background: #0D2C58;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #FFFFFF;
+}

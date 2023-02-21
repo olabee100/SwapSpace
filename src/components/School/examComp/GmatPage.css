@@ -1,0 +1,114 @@
+.gmat-page {
+    margin-top: 50px;
+    /* margin-bottom: 110px; */
+    width: 90%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.gmat-page h1 {
+    text-align: center;
+}
+
+.gmat-page .article-img {
+    width: 175px;
+    height: 175px;
+}
+
+.article-card {
+    width: 299px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EFF8FF;
+    border-radius: 10px;
+}
+
+.gmat-page p {
+    width: 72px;
+    margin-bottom: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0D2C58;
+}
+
+.gmat-page .cards-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.below-guide .vid-img {
+    width: 50px;
+    height: 50px;
+}
+
+.gmat-videos {
+    margin-bottom: 51px;
+}
+
+.gmat-videos .video-card {
+    width: 299px;
+    height: 300px;
+    background: #EFF8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gmat-videos .video-card .guide {
+    width: 299px;
+    height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D2C58;
+    border-radius: 10px;
+}
+
+.gmat-videos .video-card .guide span{
+    color: #fff;
+    font-weight: 700;
+}
+
+.gmat-videos .below-guide {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.gmat-videos .below-guide > div{
+    display: flex;
+    align-items: center;
+}
+
+.gmat-videos .below-guide > div span{
+    width: 73px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0D2C58;
+}
+
+.gmat-videos .below-guide > span {
+    width: 53px;
+    height: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #0D2C58;
+}

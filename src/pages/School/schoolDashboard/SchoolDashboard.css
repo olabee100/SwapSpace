@@ -1,0 +1,9 @@
+.student-dash {
+  height: 100%;
+  overflow: hidden;
+}
+
+.student-dash img {
+  height: 100%;
+  width: 100%;
+}

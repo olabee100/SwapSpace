@@ -1,0 +1,105 @@
+section {
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+}
+
+section .images-slider-card {
+    background: linear-gradient(180deg, #0D2C58 0%, #144286 100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.36);
+    border-radius: 30px;
+    height: 448px;
+    width: 624px;
+    position: relative;
+}
+
+.images-slider-cover {
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.slider-image {
+    height: 150px;
+    width: 150px;
+}
+
+.slide-center {
+    position: relative;
+    left: 100%;
+    z-index: 5;
+    transform: scale(1.4);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.slide-center-two {
+    transform: scale(1.4);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.slide-center-three {
+    position: relative;
+    right: 100%;
+    transform: scale(1.4);
+    transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.slide-left {
+    position: relative;
+    left: -100%;
+
+}
+
+.slide-right {
+    position: relative;
+    right: -200%;
+}
+
+.slider-image img {
+    height: 100%;
+    width: 100%;
+    padding-right: 10px;
+}
+
+
+.dots {
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    display: flex;
+}
+
+.dots div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #858484;
+    margin-right: 10px;
+
+}
+
+section .section-text {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.section-text h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section-text div {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+section .section-text .btn {
+    background: linear-gradient(180deg, #0D2C58 0%, #144286 100%);
+    color: white;
+    max-width: 200px;
+    padding: 15px 60px;
+    border-radius: 10px;
+}

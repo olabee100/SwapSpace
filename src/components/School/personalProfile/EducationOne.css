@@ -1,0 +1,163 @@
+.edu-one {
+}
+
+.edu-one-wrap {
+    margin-top: 170px;
+    padding-top: 30px;
+    width: 700px;
+    position: relative;
+    margin: 125px auto 70px;
+}
+
+.edu-one-wrap .back {
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.edu-one label {
+    position: relative;
+}
+
+.edu-one .up-down {
+    /* padding: 5px; */
+    width: 63px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: -7px;
+    gap: 2px;
+    right: 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+.edu-one .drop-down {
+    width: 40px;
+    height: 17px;
+    position: absolute;
+    right: 2px;
+    top: -7px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 8px 13px;
+}
+
+.edu-one input, .edu-one select {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+.edu-one input[type="date"] {
+    padding: 0 5px;
+}
+
+.edu-one .up-down .up, .edu-one .up-down .down {
+    width: 20px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .edu-one .progress {
+    height: 70px;
+    width: 70px;
+} */
+
+.edu-one .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.edu-one .content {
+    width: 600px;
+    /* height: 823px; */
+    background: #FFFFFF;
+    /* z-index: 2; */
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 47px 15px;
+}
+
+.edu-one .content .info {
+    display: block;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.edu-one .lvl select {
+    width: 100%;
+}
+
+.edu-one .grade select {
+    width: 100%;
+}
+
+.edu-one .logs-cgpa {
+    display: grid;
+    grid-template-columns: 55% 40.5%;
+    column-gap: 20px;
+}
+
+.edu-one .logs-cgpa .logs {
+    /* width: 55%; */
+}
+
+.edu-one .logs-cgpa .cgpa {
+    /* width: 45%; */
+}
+
+.edu-one .test-date {
+    display: grid;
+    grid-template-columns: 55% 40.5%;
+    column-gap: 20px;
+}
+
+.edu-one .test-date .test {
+    /* width: 50%; */
+}
+
+.edu-one .test-date .date {
+    /* width: 50%; */
+}
+
+.edu-one .btn {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-right: 10px;
+}
+
+.edu-one .btn button {
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #0D2C58;
+}

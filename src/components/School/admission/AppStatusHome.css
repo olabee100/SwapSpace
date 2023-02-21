@@ -1,0 +1,100 @@
+.a-s-home-school {
+  margin-left: 18%;
+  width: 90%;
+}
+.a-s-home-school .std-img {
+  height: 150px;
+  width: 150px;
+}
+
+.a-s-home-school .adm-bar-acpt,
+.a-s-home-school .adm-bar-rej {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 37px;
+  height: 339px;
+  width: 93%;
+  border: 2px solid #002151;
+  border-radius: 12px;
+  padding: 33px 10px;
+  margin-bottom: 60px;
+}
+
+.a-s-home-school .first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-s-home-school .first h3 {
+  margin-bottom: 3px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.a-s-home-school .first p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.a-s-home-school .first span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.a-s-home-school .btn-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 347px;
+  height: 52px;
+  background: #002151;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.a-s-home-school .btn-form .pay {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.a-s-home-school .adm-bar-acpt .third {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.a-s-home-school .third p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.a-s-home-school .middle h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  color: #21b573;
+}
+
+.a-s-home-school .middle h1:nth-of-type(1) {
+  margin-top: 84px;
+  margin-bottom: 15px;
+}
+
+.a-s-home-school .adm-bar-rej .middle h1 {
+  color: #ff0000;
+}

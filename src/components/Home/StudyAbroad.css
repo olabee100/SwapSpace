@@ -1,0 +1,88 @@
+article {
+  position: relative;
+  top: -68px;
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../../assets/Home/images/blue-card.png");
+  background-size: cover;
+}
+
+article h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+article p {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+article .btn {
+  border: 1px solid white;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  padding: 12px 50px;
+}
+
+article .text-content {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+.images-gallery {
+  position: relative;
+}
+
+.images-gallery .hanger-card {
+  display: flex;
+  position: absolute;
+  left: 660px;
+  top: 140px;
+  z-index: 1;
+  background: #ffffff;
+  border-radius: 0px 20px;
+}
+
+.dashed-line {
+  position: absolute;
+  z-index: 1;
+  left: 715px;
+  top: 85px;
+}
+
+.hanger-card h4 {
+  margin: 0;
+  line-height: 20px;
+}
+
+.hanger-card p {
+  padding: 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+}
+
+.images-gallery .imageOne {
+  position: absolute;
+  left: 830px;
+  top: 100px;
+}
+
+.images-gallery .imageTwo {
+  position: absolute;
+  left: 1090px;
+  top: 180px;
+}
+
+.images-gallery .imageThree {
+  position: absolute;
+  left: 680px;
+  top: 320px;
+}

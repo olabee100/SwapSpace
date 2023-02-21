@@ -1,0 +1,162 @@
+.add-info {
+    border: 2px solid black;
+}
+
+.add-info .add-info-wrap {
+    margin-top: 170px;
+    padding-top: 30px;
+    width: 700px;
+    position: relative;
+    margin: 125px auto 70px;
+    border: 1px solid red;
+}
+
+.add-info .info {
+    display: block;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.add-info .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.add-info label {
+    position: relative;
+}
+
+/* .add-info .progress {
+    height: 70px;
+    width: 70px;
+} */
+
+.add-info .drop-down {
+    width: 40px;
+    height: 17px;
+    position: absolute;
+    right: 2px;
+    top: -7px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 8px 13px;
+}
+
+.add-info-wrap .back {
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.add-info .content {
+    width: 600px;
+    /* height: 823px; */
+    background: #FFFFFF;
+    /* z-index: 2; */
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 40px 47px 15px;
+}
+
+.add-info input, .add-info select {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+.add-info .phone-wrap {
+    display: flex;
+    column-gap: 28px;
+}
+
+.add-info .phone-wrap .left {
+    width: 35%;
+    height: 42px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+    border-radius: 10px;
+}
+
+.add-info .phone-wrap .left span {
+    margin-left: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.add-info .phone-wrap .left .flag {
+    height: 25px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.add-info .phone-wrap .left .drop-down {
+    /* right: -2px; */
+    top: 4px;
+}
+
+.add-info .phone-wrap .right {
+    width: 60%;
+}
+
+.add-info .state-postal {
+    display: flex;
+    column-gap: 35px;
+}
+
+.add-info .state-postal .state {
+    width: 55%;
+}
+
+/* .add-info .state-postal .state .drop-down {
+    position: absolute;
+    top: 4px;
+    right: 3px;
+} */
+
+.add-info .state-postal .postal {
+    width: 40%;
+}
+
+.add-info .mail div:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+
+.add-info .btn {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    /* padding-right: 10px; */
+}
+
+.add-info .btn button {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #0D2C58;
+}

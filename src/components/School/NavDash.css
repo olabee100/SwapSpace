@@ -1,0 +1,50 @@
+.nav-dash-school {
+    width: 99vw;
+    height: 55px;
+    /* margin-left: 13%; */
+    background-color: #0d2c58;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 3;
+  }
+  
+  .nav-dash-school img {
+    height: 100%;
+    width: 100%;
+  }
+  .mainContainer {
+    flex-grow: 1;
+    flex: 87%;
+  }
+  .nav-wrapper {
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  
+  .bell-icon {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .cj-icon {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .nav-dash-school .drp-dwn {
+    margin-right: 25px;
+    height: 15px;
+    width: 15px;
+  }
+  

@@ -1,0 +1,117 @@
+article {
+    position: relative;
+    top: -68px;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
+    background-image: url(/src/assets/Home/images/blue-card.png);
+    background-size: cover;
+}
+
+article h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+article p {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+article .learn-more {
+    display: inline-block;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    padding: 1rem 5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+article .text-content {
+    padding: 0 0 0 3rem;
+}
+
+@media only screen and (min-width:1440px) {
+    article .text-content {
+        padding: 0 0 0 5rem;
+    }
+}
+
+.images-gallery {
+    width: 45%;
+    height: 90%;
+    position: relative;
+}
+
+.images-gallery .hanger-card {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    background: #FFFFFF;
+    border-radius: 0px 20px;
+}
+
+.images-gallery .hanger-card-one {
+    left: 0;
+    top: 140px;
+}
+
+.images-gallery .hanger-card-two {
+    right: 0;
+    bottom: 160px;
+}
+
+.dashed-line {
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 85px;
+}
+
+.hanger-card h4 {
+    margin: 0;
+    line-height: 20px;
+}
+
+.hanger-card p {
+    padding: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin: 0;
+}
+
+
+.images-gallery .imageOne {
+    position: absolute;
+    left: 180px;
+    top: 85px;
+}
+
+.images-gallery .imageTwo {
+    position: absolute;
+    right: 0;
+    top: 150px
+}
+
+.images-gallery .imageThree {
+    position: absolute;
+    left: 35px;
+    top: 320px;
+}

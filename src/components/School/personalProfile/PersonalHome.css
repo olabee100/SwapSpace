@@ -1,0 +1,86 @@
+/* .personal-profile {
+    z-index: 4;
+} */
+
+.personal-profile .logo div {
+    width: 46px;
+    height: 49px;
+    margin-right: 5px;
+}
+
+.personal-profile .drop-down {
+    width: 15px;
+    height: 12px;
+    margin-left: 6px;
+}
+
+.personal-profile nav {
+    display: flex;
+    position:fixed;
+    z-index: 3;
+    top: 0;
+    background-color: #0D2C58;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    color: #ffffff;
+    height: 10%;
+    width: 97.5%;
+}
+
+.personal-profile .logo {
+    display: flex;
+}
+
+.personal-profile .logo p {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.personal-profile nav .middle {
+    display: flex;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.personal-profile nav .middle > div {
+    display: flex;
+    /* align-items: center; */
+    margin-right: 58px;
+}
+
+.personal-profile nav .last {
+    display: flex;
+    align-items: center;
+}
+
+.personal-profile nav .last div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 23px;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #ffffff;
+}
+
+.personal-profile nav .last div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #ffffff;
+}

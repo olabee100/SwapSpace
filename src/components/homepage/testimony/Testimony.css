@@ -1,0 +1,88 @@
+.testimony-section {
+  padding: 3rem;
+}
+
+
+@media only screen and (min-width:1440px) {
+  .testimony-section {
+    padding: 5rem;
+  }
+}
+
+.testimony-section h1 {
+  color: #0D2C58;
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+
+
+.testimony-slider {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.testimony {
+  width: 100%;
+  flex: 0 0 100%;
+  display: flex;
+  gap: 3rem;
+  padding: 0 0 4rem 0;
+  transition: all .1s ease;
+}
+
+.control {
+  position: relative;
+  cursor: pointer;
+}
+
+.control .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 116, 145, 0.42);
+  z-index: 56;
+}
+
+.testimony .current {
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.testimony .current .text-name {
+  padding: 0 3rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.testimony .current .text-name .user-name {
+  font-size: 24px;
+  color: #0D2C58;
+}
+
+.slide-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.slide-dots .dot {
+  width: 20px;
+  height: 20px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slide-dots .selected {
+  background: #0D2C58;
+}

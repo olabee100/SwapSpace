@@ -1,0 +1,163 @@
+.container {
+    width: calc(100vw -70px);
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    /* background-color: gold; */
+}
+
+.wrapper {
+    width: 93%;
+    margin-top: 100px;
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inner-card {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ======User Profile===== */
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 200px;
+}
+
+.user-profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.user-profile .user-Name{
+   font-size: 16px;
+   font-weight: 700;
+   text-align: center;
+}
+
+.user-profile .user-code {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(150, 149, 149);
+}
+
+.user-profile .course {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(150, 149, 149);
+    text-align: center;
+}
+
+.pointer-holder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: gold; */
+}
+.pointer {
+    width: 95%;
+    height: 70px;
+    position: relative;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+.pointer:before {
+    content: "";
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: -15px solid lightgray;
+    border-left: 30px solid lightgray;
+    border-top: 40px solid transparent;
+    border-bottom: 30px solid transparent;
+  }
+.angle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* background-color: gold; */
+    /* margin-left: 10px; */
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    /* color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 9px;
+    margin-right: 5px;
+}
+
+.text div {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    /* width: 60px; */
+}
+
+.shape {
+    position: relative;
+    text-align: center;
+    /* padding: 2px; */
+    /* margin-bottom: 6px; */
+    /* background-color: gold; */
+    height: 2.5px;
+    width: 30px;
+    margin: 5px;
+    /* transform: rotate(90deg); */
+  }
+
+  .shape:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    /* bottom: 0; */
+    height: 2.5px;
+    width: 30px;
+    background: white;
+    transform: skew(0deg, -40deg);
+  }
+
+  .shape:after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -10px;
+    height: 2.5px;
+    width: 30px;
+    background: white;
+    transform: skew(0deg, 40deg);
+  }

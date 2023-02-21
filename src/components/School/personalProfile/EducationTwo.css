@@ -1,0 +1,173 @@
+.edu-two {
+    border: 1px solid black;
+}
+
+.edu-two-wrap {
+    margin-top: 170px;
+    /* padding-top: 30px; */
+    width: 700px;
+    position: relative;
+    margin: 125px auto 70px;
+    /* border: 1px solid red; */
+}
+
+.edu-two-wrap .back {
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.edu-two .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.edu-two .content {
+    width: 600px;
+    /* height: 823px; */
+    background: #FFFFFF;
+    /* z-index: 2; */
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 47px 15px;
+}
+
+.edu-two .info {
+    display: block;
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.edu-two label {
+    position: relative;
+    display: flex;
+    padding: 0 5px;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    height: 40px;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+}
+
+.edu-two input[type="file"] {
+    width: 85px;
+}
+
+.edu-two .up-down {
+    /* padding: 5px; */
+    width: 63px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 3px;
+    gap: 2px;
+    right: 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    border: 1px solid black;
+}
+
+.edu-two .up-down .up, .edu-two .up-down .down {
+    width: 20px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-two .btn {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-right: 7px;
+}
+
+.edu-two .btn button {
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #0D2C58;
+}
+
+.edu-two .upload, .edu-two .up-pass {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 188px;
+    padding: 0 10px;
+    height: 42px;
+    color: #FFFFFF;
+    background: #0D2C58;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.edu-two .up-pass {
+    width: 221px;
+    top: -1px;
+    right: -2px;
+}
+
+.edu-two .plus {
+    font-weight:900;
+    font-size: 30px;
+}
+
+.edu-two .pass-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-two .pass-card > div{
+    width: 40%;
+}
+
+.edu-two .neet-mark label {
+    width: 45%;
+}
+
+.edu-two .neet-mark input {
+    width: 100%;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+}
+
+.side-marksheet {
+    position: absolute;
+    top: 250px;
+    right: -250px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.side-marksheet span{
+    display: block;
+}

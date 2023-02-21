@@ -1,0 +1,10 @@
+.exams-page {
+    padding-top: 55px;
+    width: 87%;
+    margin-left: 13%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}

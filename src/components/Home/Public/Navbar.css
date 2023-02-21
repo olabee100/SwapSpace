@@ -1,0 +1,112 @@
+.navbar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #0D2C58 0%, #144286 100%);
+    width: 100%;
+}
+
+.navbar .navs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.navbar .navs li {
+    /* display: inline-block; */
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navs li img {
+    /* display: block; */
+    width: 12px;
+    margin-left: 3px;
+}
+
+.navbar .buttons {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.navbar .buttons li {
+    margin: 10px;
+}
+
+.navbar .logo {
+    display: flex;
+}
+
+.navbar .logo>div {
+    width: 61px;
+    height: 57px;
+    margin-right: 19px;
+}
+
+
+.navbar .logo img {
+    height: 100%;
+    width: 100%;
+    margin-left: 28px;
+    margin-top: 17px;
+}
+
+.navbar .logo span {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin: 29px 16px;
+    margin-right: 40px;
+}
+
+.login-btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 14px 45px;
+    margin: 20px, 30px, 20px, 24px;
+}
+
+.drop-down {
+    height: 220px;
+    width: 130px;
+    background: linear-gradient(180deg, #0D2C58 0%, #144286 100%);
+    position: absolute;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.drop-down li {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid #FFFFFF4D; */
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.drop-down li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    /* margin-left: -10px; */
+
+}

@@ -1,0 +1,59 @@
+.pref-ctry {
+    margin-top: 100px;
+}
+
+.pref-ctry .ctry-wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.pref-ctry h1 {
+    text-align: center;
+}
+
+.pref-ctry .flags {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.pref-ctry .flag-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pref-ctry .flag-img div{
+    width: 200px;
+    height: 145px;
+    border-radius: 10px;
+}
+
+.pref-ctry .flag-img span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+.pref-ctry .btn {
+    display: flex;
+    padding: 0 65px;
+    justify-content: space-between;
+}
+
+.pref-ctry .btn button {
+    height: 50px;
+    width: 267px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #0D2C58;
+}

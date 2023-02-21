@@ -1,0 +1,250 @@
+.slot-booking {
+    /* border: 3px solid black; */
+    position: absolute;
+    top: 55px;
+    background-color: #FFFFFF;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.slot-booking .c-icon {
+    width: 63px;
+    height: 44px;
+    position: inherit;
+    left: -10px;
+}
+
+.slot-booking .uni-logo {
+    height: 41px;
+    width: 41px;
+}
+
+.slot-booking video {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slot-booking .booking-wrap {
+    position: relative;
+}
+
+.slot-booking .head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px 23px;
+    height: 100px;
+    background: #EFF8FF;
+}
+
+.slot-booking .head > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.slot-booking .head > div span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.3945px;
+    line-height: 13px;
+    color: #0D2C58;
+}
+
+.slot-booking .head h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 28px;
+    color: #0D2C58;
+}
+
+.slot-booking .head h3 {
+    margin-left: auto;
+    margin-right: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.slot-booking .below-wrap {
+    width: 97%;
+    margin: auto;
+    padding-top: 43px;
+    padding-bottom: 98px;
+}
+
+.slot-booking .below-wrap h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    margin-bottom: 39px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #C4C4C4;
+    color: #002151;
+}
+
+.slot-booking .content {
+    width: 92%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* justify-content: space-between; */
+    column-gap: 27px;
+}
+
+.slot-booking .content div:nth-of-type(1){
+    width: 100%;
+    /* height: 329px; */
+}
+
+.slot-booking .content div:nth-of-type(2) p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5A5A5A;
+}
+
+.slot-booking .content div:nth-of-type(2) span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.slot-booking .below-wrap h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    margin-left: 25px;
+}
+
+.slot-booking .below-about {
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+}
+
+.slot-booking .reg {
+    width: 218px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0 21px; */
+    background: #1C9921;
+    border-radius: 12px;
+}
+
+.slot-booking .reg span:nth-of-type(1) {
+    margin-left: 25px;
+}
+
+.slot-booking .reg span:nth-of-type(2) {
+    margin-left: 21px;
+}
+
+.slot-booking .reg span:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.slot-booking .reg span:nth-of-type(2) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.slot-booking .calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 422px;
+    height: 112px;
+    padding: 0 41px;
+    background: #1C9199;
+    border-radius: 12px;
+}
+
+.slot-booking .calendar > div:nth-of-type(1) {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.slot-booking .calendar > div:nth-of-type(1) span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.slot-booking .calendar > div:nth-of-type(2) {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slot-booking .calendar > div:nth-of-type(2) span {
+    font-weight: 500;
+    font-size: 24px;
+    position: inherit;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.slot-booking .calendar > div:nth-of-type(2) span:nth-of-type(1) {
+    left: -20px;
+}
+
+.slot-booking .calendar > div:nth-of-type(2) span:nth-of-type(2) {
+    left: -2px;
+}
+
+.slot-booking .calendar > div:nth-of-type(2) span:nth-of-type(3) {
+    right: -7px;
+}
+
+.slot-booking .below-about .btn-one {
+    width: 218px;
+    height: 67px;
+    border: none;
+    cursor: pointer;
+    background: #0D2C58;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.slot-booking .below-about .btn-two {
+    width: 262px;
+    height: 67px;
+    border: none;
+    background: #21B573;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,185 @@
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #133f7f;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar .logo>div {
+    width: 61px;
+    height: 57px;
+}
+
+
+.navbar .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar .logo span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    line-height: 19px;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width:1440px) {
+    .navbar .logo span {
+        font-size: 24px;
+    }
+}
+
+.navbar .nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar .nav-btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media only screen and (min-width:1440px) {
+    .navbar .nav-links {
+        gap: 3rem;
+    }
+
+    .navbar .nav-btns {
+        gap: 3rem;
+
+    }
+}
+
+.navbar ul li {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1440px) {
+    .navbar .nav-links li {
+        font-size: 24px;
+    }
+
+    .navbar .nav-btns li {
+        font-size: 24px;
+    }
+}
+
+
+.navbar .nav-links :where(.services, .schools, .explores) {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    position: relative;
+}
+
+.navbar li .fa-caret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .drop-down {
+    width: 10rem;
+    top: 24px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 0;
+    z-index: 3;
+    padding: 1rem 0 2rem 0;
+    background: #133f7f;
+    transform: scaleY(0);
+}
+
+.navbar .drop-down li {
+    width: 100%;
+    font-size: 16px;
+    padding: .5rem 0 .5rem 1rem;
+    border-bottom: 1px solid #FFFFFF4D;
+}
+
+
+.navbar .nav-links .services:hover .services-dropdown .drop-down {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.navbar .nav-links .schools:hover .schools-dropdown .drop-down {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.navbar .nav-links .explores:hover .explores-dropdown .drop-down {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+
+.navbar .drop-down li:hover {
+    background: #255db9;
+}
+
+.navbar .drop-down li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar .drop-down .services-study-abroad {
+    /* display: flex; */
+    position: relative;
+}
+
+.navbar .drop-down .study-abroad-dropdown {
+    width: 100%;
+    position: absolute;
+    /* left: 0; */
+    top: 0;
+    left: 100%;
+    font-weight: 800;
+    font-size: 16px;
+    background: #133f7f;
+    transform: scaleY(0);
+}
+
+.navbar .drop-down .services-study-abroad:hover .study-abroad-dropdown {
+    transform: scaleY(1);
+}
+
+
+.navbar .login-btn a {
+    color: #ffffff;
+    padding: 14px 45px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}

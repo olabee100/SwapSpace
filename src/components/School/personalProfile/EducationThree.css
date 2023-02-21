@@ -1,0 +1,120 @@
+.edu-three {
+    border: 1px solid black;
+}
+
+.edu-three-wrap {
+    margin-top: 170px;
+    /* padding-top: 30px; */
+    width: 700px;
+    position: relative;
+    margin: 125px auto 70px;
+    /* border: 1px solid red; */
+}
+
+.edu-three-wrap .back {
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.edu-three .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.edu-three .content {
+    width: 600px;
+    position: relative;
+    /* height: 823px; */
+    background: #FFFFFF;
+    /* z-index: 2; */
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 47px 15px;
+}
+
+.edu-three label {
+    position: relative;
+}
+
+.edu-three input, .edu-three select {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    width: 100%;
+    /* border: none; */
+    outline: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+.edu-three .drop-down {
+    width: 40px;
+    height: 17px;
+    position: absolute;
+    right: 2px;
+    top: -7px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 8px 13px;
+}
+
+.edu-three .content .info {
+    display: block;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.edu-three .degree-cgpa {
+    display: grid;
+    grid-template-columns: 50% 44.5%;
+    column-gap: 20px;
+}
+
+.edu-three .up-resume {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: #FFFFFF;
+    border: 2px solid #0D2C58;
+    border-radius: 10px;
+}
+
+.edu-three .btn {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-right: 10px;
+}
+
+.edu-three .btn button {
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #0D2C58;
+}
