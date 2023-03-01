@@ -56,7 +56,7 @@ export const authSlice = createSlice({
         state.userInfo = jwtDecode(action.payload.token).others;
         // console.log(state.userInfo);
         state.userToken = action.payload.token;
-        state.success = true;
+        state.success = false;
         state.error = null;
         // console.log(action);
       })

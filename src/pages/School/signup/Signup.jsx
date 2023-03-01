@@ -29,7 +29,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
-  const [loginDetail, setLoginDetail] = useState("");
+  
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   
@@ -111,11 +111,11 @@ const Signup = () => {
     e.preventDefault();
     // please do standard and beautiful checks
     // please also do the checkbox check too, to make sure the student accept the terms and conditions
-    if (!loginDetail || !password || loginDetail === "" || password === "") {
+    if (!email || !password || email === "" || password === "") {
       setErrors("Please fill all fields!");
     } else {
-      dispatch(userLogin({ loginDetail, password }));
-      console.log("details sent successfully!");
+      dispatch(userLogin({ email, password }));
+      console.log("login successful!");
     }
   };
 
@@ -176,9 +176,9 @@ const Signup = () => {
                   type="text"
                   required
                   placeholder="Phone No/Email id"
-                  name="loginDetail"
-                  value={loginDetail}
-                  onChange={(e) => setLoginDetail(e.target.value)}
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               )}
 

@@ -13,6 +13,7 @@ import SchoolDashboard from "./pages/School/schoolDashboard/SchoolDashboard";
 import { UnderProcess , RejectedApplication } from "./components/School/application";
 import Acceptedapp from "./components/School/Accepted/Acceptedapp"
 import Upcoming from "./components/School/webinar/Upcoming";
+import SchoolForm from "../src/schoolForm/schoolForm";
 
 
 
@@ -57,6 +58,8 @@ function App() {
         <Route path="/school/dashboard/webinar/upcoming" element={<WebinarIndex/>} />
         <Route path="/school/dashboard/commisions" element={<SchoolCommision/>} />
         <Route path="/school/dashboard/studentprofile" element={<SchoolStudent/>} />
+        <Route path="/school/signup/form" element={<SchoolForm />} />
+        
        
 
         {/* F_University */}

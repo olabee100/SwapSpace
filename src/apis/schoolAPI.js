@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://ec2-34-227-15-84.compute-1.amazonaws.com/api/school",
+  baseURL: "http://ec2-34-227-15-84.compute-1.amazonaws.com/api/"
 });
 
 export default API;

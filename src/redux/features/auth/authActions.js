@@ -5,7 +5,7 @@ import API from "../../../apis/schoolAPI";
 
 export const registerUser = createAsyncThunk(
   "user/register",
-  async ({ email,password, confirmPassword }, { rejectWithValue }) => {
+  async ({ email,password }, { rejectWithValue }) => {
     try {
       const config = {
         headers: {
@@ -14,11 +14,12 @@ export const registerUser = createAsyncThunk(
       };
        
       const response = await API.post(
-        `/register`,
+        `/auth/register`,
         {
           email,
           password,
-          confirmPassword,
+          role: "school"
+          
         },
         config
       );
@@ -34,7 +35,7 @@ export const registerUser = createAsyncThunk(
 
 export const userLogin = createAsyncThunk(
   "user/login",
-  async ({ loginDetail, password }, { rejectWithValue }) => {
+  async ({ email, password }, { rejectWithValue }) => {
     try {
       const config = {
         headers: {
@@ -42,7 +43,7 @@ export const userLogin = createAsyncThunk(
         },
       };
 
-      return await API.post("/login", { loginDetail, password }, config).then(
+      return await API.post("/auth/login", { email, password , role: "school"}, ).then(
         (response) => {
           if (response.data.token) {
             localStorage.setItem(
